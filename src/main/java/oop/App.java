@@ -14,10 +14,9 @@ public class App
     }
 
     public void start() {
-        SodaCan sc1 = new SodaCan();
-        //TODO
-        // See question P8.5
+        SodaCan sc1 = new SodaCan(10,3);
 
+        System.out.println();
 
     }
 }
