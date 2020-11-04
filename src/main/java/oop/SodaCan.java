@@ -32,12 +32,12 @@ public class SodaCan {
     //formula for the surface area of a cylinder A = 2πrh+2πr^2
     public double getSurfaceArea()
     {
-        return (2 * Math.PI * radius * height) + (2 * Math.PI * (radius ^ 2));
+        return (2 * Math.PI * radius * height) + (2 * Math.PI * (Math.pow(radius, 2)));
     }
 
     //formula for volume of a cylinder V = πr^2h
     public double getVolume()
     {
-        return Math.PI * (radius ^ 2) * height;
+        return Math.PI * (Math.pow(radius, 2)) * height;
     }
 }
